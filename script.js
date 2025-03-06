@@ -167,7 +167,7 @@
                 "edu2-date": "2011 - 2014",
                 "edu2-institution": "Filière SIR (Systèmes Informatiques Répartis) Faculté des Sciences et Techniques de Marrakech – Maroc",
 
-                "languages-title": "Langues",des Sciences et Techniques de Marrakech – Maroc",
+                "languages-title": "Langues",
 
                 "lang1": "Anglais",
                 "lang1-level": "Maitrise professionnelle",
