@@ -15,7 +15,7 @@
 
                 "experience-title": "Expérience Professionnelle",
                 "exp1-company": "Omnilog, Paris France",
-                "exp1-date": "06/2019 – présent",
+                "exp1-date": "12/2020 – présent",
                 "exp1-position": "Ingénieur Front End Sénior",
                 "exp1-client": "CLIENT : Carglass/Belron",
                 "exp1-project": "PROJET : Conception et développement d'une bibliothèque de composants Angular modulaires et réutilisables, permettant aux différents pays de créer leur site institutionnel et leur système de prise de rendez-vous",
@@ -32,7 +32,7 @@
                 "exp1-tech": "Environnement technique : Angular 17/18, Typescript, Nest.js, Node.js, Ngrx, Rxjs, Nx, Tailwind CSS, Storybook, Jest, Cypress, PostgreSql, Gitlab, Jira, Docker, Datadog, Sentry, Figma, Vs code, Microservices",
 
                 "exp2-company": "Omnilog, Paris France",
-                "exp2-date": "06/2019 – présent",
+                "exp2-date": "12/2024 – 02/2025",
                 "exp2-position": "Ingénieur Front End Sénior",
                 "exp2-client": "CLIENT : Bayard/la-croix.com",
                 "exp2-project": "PROJET : L'implémentation de Subscribe with Google (SwG) sur le nouveau site laCroix",
@@ -43,7 +43,7 @@
                 "exp2-tech": "Environnement technique : Typescript, Javascript, twig, webpack, scss, Jest, Gitlab, Jira, Docker, Vs code",
 
                 "exp3-company": "Omnilog, Paris France",
-                "exp3-date": "06/2019 – présent",
+                "exp3-date": "09/2019 – 11/2020",
                 "exp3-position": "Ingénieur Front End Sénior",
                 "exp3-client": "CLIENT : FFF (Fédération Française de Football)",
                 "exp3-project": "PROJET : Participation à la refonte d'une application web permettant la gestion des compétitions, clubs et organisations des matchs",
@@ -55,7 +55,7 @@
                 "exp3-tech": "Environnement technique : Typescript, Angular 8, HTML5, CSS3, Angular Material, JQurey, Python, Jenkins, PostgreSql, GitLab, JIRA, Docker...",
 
                 "exp4-company": "Omnilog, Paris France",
-                "exp4-date": "06/2019 – présent",
+                "exp4-date": "06/2019 – 09/2019",
                 "exp4-position": "Ingénieur Front End Sénior",
                 "exp4-client": "CLIENT : Colas",
                 "exp4-project": "PROJET : Transformation d'une application web Angular (Park'ing Saclay) en PWA",
@@ -65,13 +65,6 @@
                 "exp4-desc4": "Développement des nouvelles fonctionnalités",
                 "exp4-desc5": "Test sur les plateformes mobiles (IOS, Android)",
                 "exp4-tech": "Environnement technique : Angular 6, HTML5, CSS3, Angular Material, JQurey, GitLab, JIRA",
-
-                "exp5-company": "Orange Business Services, Casablanca/Rabat",
-                "exp5-date": "06/2017 – 05/2019",
-                "exp5-position": "Ingénieur Front End",
-                "exp5-client": "PROJET : SERENE-IOT",
-                "exp5-project": "Développement de la solution SERENE-IOT, permettant aux médecins de suivre et gérer les soins de leurs patients à distance (Exemple de soin : pompe de nutrition parentérale)",
-                "exp5-tech": "Environnement technique : Angular 7, Angular Materials, HTML5, SCSS, Javascript, Bootstrap 4, PostgreSql, GitLab, JIRA",
 
                 "exp6-company": "Orange Business Services, Casablanca/Rabat",
                 "exp6-date": "06/2017 – 05/2019",
@@ -87,7 +80,7 @@
                 "exp6-tech": "Environnement technique : Javascript, AngularJS, HTML5, CSS3, Bootstrap4, JQurey, chart.js, OpenLayers, Jenkins, PostgreSql, GitLab, JIRA",
 
                 "exp7-company": "Orange Business Services, Casablanca/Rabat",
-                "exp7-date": "06/2017 – 05/2019",
+                "exp7-date": "06/2017 – 09/2017",
                 "exp7-position": "Ingénieur Front End",
                 "exp7-client": "PROJET : Manitowook",
                 "exp7-project": "Développement d'évolutions sur une solution existante, Manitowook, solution qui s'appuie sur le framework Vaadin permettant de gérer et de transmettre les informations en continu à distance de fonctionnements des grues connectées.",
@@ -198,7 +191,7 @@
 
                 "experience-title": "Professional Experience",
                 "exp1-company": "Omnilog, Paris France",
-                "exp1-date": "06/2019 – present",
+                "exp1-date": "12/2020 – present",
                 "exp1-position": "Senior Front End Engineer",
                 "exp1-client": "CLIENT: Carglass/Belron",
                 "exp1-project": "PROJECT: Design and development of a library of modular and reusable Angular components, allowing different countries to create their institutional website and appointment booking system",
@@ -215,7 +208,7 @@
                 "exp1-tech": "Technical environment: Angular 17/18, Typescript, Nest.js, Node.js, Ngrx, Rxjs, Nx, Tailwind CSS, Storybook, Jest, Cypress, PostgreSql, Gitlab, Jira, Docker, Datadog, Sentry, Figma, Vs code, Microservices",
 
                 "exp2-company": "Omnilog, Paris France",
-                "exp2-date": "06/2019 – present",
+                "exp2-date": "12/2024 – 02/25",
                 "exp2-position": "Senior Front End Engineer",
                 "exp2-client": "CLIENT: Bayard/la-croix.com",
                 "exp2-project": "PROJECT: Implementation of Subscribe with Google (SwG) on the new laCroix website",
@@ -226,7 +219,7 @@
                 "exp2-tech": "Technical environment: Typescript, Javascript, twig, webpack, scss, Jest, Gitlab, Jira, Docker, Vs code",
 
                 "exp3-company": "Omnilog, Paris France",
-                "exp3-date": "06/2019 – present",
+                "exp3-date": "09/2019 – 11/2020",
                 "exp3-position": "Senior Front End Engineer",
                 "exp3-client": "CLIENT: FFF (French Football Federation)",
                 "exp3-project": "PROJECT: Participation in the redesign of a web application for managing competitions, clubs and match organizations",
@@ -238,7 +231,7 @@
                 "exp3-tech": "Technical environment: Typescript, Angular 8, HTML5, CSS3, Angular Material, JQurey, Python, Jenkins, PostgreSql, GitLab, JIRA, Docker...",
 
                 "exp4-company": "Omnilog, Paris France",
-                "exp4-date": "06/2019 – present",
+                "exp4-date": "06/2019 – 09/2019",
                 "exp4-position": "Senior Front End Engineer",
                 "exp4-client": "CLIENT: Colas",
                 "exp4-project": "PROJECT: Transformation of an Angular web application (Park'ing Saclay) into a PWA",
@@ -249,15 +242,8 @@
                 "exp4-desc5": "Testing on mobile platforms (iOS, Android)",
                 "exp4-tech": "Technical environment: Angular 6, HTML5, CSS3, Angular Material, JQurey, GitLab, JIRA",
 
-                "exp5-company": "Orange Business Services, Casablanca/Rabat",
-                "exp5-date": "06/2017 – 05/2019",
-                "exp5-position": "Front End Engineer",
-                "exp5-client": "PROJECT: SERENE-IOT",
-                "exp5-project": "Development of the SERENE-IOT solution, allowing doctors to monitor and manage their patients' care remotely (Example of care: parenteral nutrition pump)",
-                "exp5-tech": "Technical environment: Angular 7, Angular Materials, HTML5, SCSS, Javascript, Bootstrap 4, PostgreSql, GitLab, JIRA",
-
                 "exp6-company": "Orange Business Services, Casablanca/Rabat",
-                "exp6-date": "06/2017 – 05/2019",
+                "exp6-date": "09/2017 – 05/2019",
                 "exp6-position": "Front End Engineer",
                 "exp6-client": "PROJECT: IOT Solution",
                 "exp6-project": "Design and development of an IOT solution for managing and monitoring immobile objects for Orange client",
@@ -270,7 +256,7 @@
                 "exp6-tech": "Technical environment: Javascript, AngularJS, HTML5, CSS3, Bootstrap4, JQurey, chart.js, OpenLayers, Jenkins, PostgreSql, GitLab, JIRA",
 
                 "exp7-company": "Orange Business Services, Casablanca/Rabat",
-                "exp7-date": "06/2017 – 05/2019",
+                "exp7-date": "06/2017 – 09/2019",
                 "exp7-position": "Front End Engineer",
                 "exp7-client": "PROJECT: Manitowook",
                 "exp7-project": "Development of evolutions on an existing solution, Manitowook, a solution based on the Vaadin framework allowing to manage and transmit continuous information remotely about the functioning of connected cranes.",
