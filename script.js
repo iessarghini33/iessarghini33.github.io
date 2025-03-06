@@ -180,9 +180,8 @@
                 "interest1": "Photographie",
                 "interest2": "Randonnée",
                 "interest3": "Basket-ball",
-                "interest4": "Video games (FIFA)",
 
-                "footer-text": "© 2023 Issam ESSARGHINI. Tous droits réservés."
+                "footer-text": "© 2025 Issam ESSARGHINI. Tous droits réservés."
             },
             en: {
                 // Header
@@ -363,9 +362,8 @@
                 "interest1": "Photography",
                 "interest2": "Hiking",
                 "interest3": "Basketball",
-                "interest4": "Video games (FIFA)",
 
-                "footer-text": "© 2023 Issam ESSARGHINI. All rights reserved."
+                "footer-text": "© 2025 Issam ESSARGHINI. All rights reserved."
             }
         };
 
