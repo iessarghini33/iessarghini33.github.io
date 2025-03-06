@@ -4,8 +4,8 @@
                 // Header
                 "name": "Issam ESSARGHINI",
                 "title": "Ingénieur Front End Sénior",
-                "address": "Chennevières sur marne, 94430 France",
-                "phone": "+33 7 78 05 21 06",
+                "address": " Chennevières sur marne, 94430 France",
+                "phone": " +33 7 78 05 21 06",
                 "email": "essarghini.issam@gmail.com",
                 "current-language": "Français",
 
@@ -67,7 +67,7 @@
                 "exp4-tech": "Environnement technique : Angular 6, HTML5, CSS3, Angular Material, JQurey, GitLab, JIRA",
 
                 "exp6-company": "Orange Business Services, Casablanca/Rabat",
-                "exp6-date": "06/2017 – 05/2019",
+                "exp6-date": "09/2017 – 05/2019",
                 "exp6-position": "Ingénieur Front End",
                 "exp6-client": "PROJET : Solution IOT",
                 "exp6-project": "Conception et développement d'une solution IOT permettant la gestion et le suivi des objets immobiles pour le client Orange",
@@ -180,8 +180,8 @@
                 // Header
                 "name": "Issam ESSARGHINI",
                 "title": "Senior Front End Engineer",
-                "address": "Chennevières sur marne, 94430 France",
-                "phone": "+33 7 78 05 21 06",
+                "address": " Chennevières sur marne, 94430 France",
+                "phone": " +33 7 78 05 21 06",
                 "email": "essarghini.issam@gmail.com",
                 "current-language": "English",
 
