@@ -7,7 +7,7 @@ import { TranslationService } from "./services/translation.service"
 
 @Component({
   selector: "app-root",
-  standalone: true,
+ 
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent],
   template: `
     <div class="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">

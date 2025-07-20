@@ -1,18 +1,15 @@
-import { Component } from "@angular/core"
-import { CommonModule } from "@angular/common"
+import { Component, inject } from "@angular/core"
 import { TranslationService } from "../../services/translation.service"
 
 @Component({
   selector: "app-footer",
-  standalone: true,
-  imports: [CommonModule],
   template: `
     <footer class="bg-white dark:bg-gray-800 shadow-inner py-6">
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div class="mb-4 md:mb-0">
             <p class="text-gray-600 dark:text-gray-300">
-              © {{ currentYear }} {{ currentLang === 'fr' ? 'Tous droits réservés' : 'All rights reserved' }} v1.0.0
+              © {{ currentYear }} {{ currentLang === 'fr' ? 'Tous droits réservés' : 'All rights reserved' }} v1
             </p>
           </div>
           <div class="flex space-x-6">
@@ -38,10 +35,11 @@ import { TranslationService } from "../../services/translation.service"
   `,
 })
 export class FooterComponent {
+  private translationService = inject(TranslationService);
   currentYear = new Date().getFullYear()
   currentLang = "fr"
 
-  constructor(private translationService: TranslationService) {
+  constructor() {
     this.translationService.languageChanged.subscribe((lang) => {
       this.currentLang = lang
     })

@@ -1,106 +1,17 @@
-import { Component } from "@angular/core"
+import { Component, inject } from "@angular/core"
 import { CommonModule } from "@angular/common"
 import { TranslationService } from "../../services/translation.service"
+import { Project } from "../../interfaces/project.interface"
 
-interface Project {
-  id: number
-  title: string
-  shortDescription: string
-  fullDescription: string
-  imageUrl: string
-  technologies: string[]
-  date: string
-}
+
 
 @Component({
   selector: "app-projects",
-  standalone: true,
   imports: [CommonModule],
-  template: `
-    <div class="max-w-5xl mx-auto">
-      <header class="mb-10">
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          {{ translations.title }}
-        </h1>
-        <p class="text-xl text-gray-600 dark:text-gray-300">
-          {{ translations.subtitle }}
-        </p>
-      </header>
-
-      <div class="mb-8">
-        <div class="flex flex-wrap gap-2">
-          <button 
-            (click)="filterByTechnology('all')" 
-            [class.bg-blue-600]="selectedTechnology === 'all'"
-            [class.text-white]="selectedTechnology === 'all'"
-            [class.bg-gray-200]="selectedTechnology !== 'all'"
-            [class.dark:bg-gray-700]="selectedTechnology !== 'all'"
-            [class.text-gray-800]="selectedTechnology !== 'all'"
-            [class.dark:text-white]="selectedTechnology !== 'all'"
-            class="px-4 py-2 rounded-full text-sm font-medium transition">
-            {{ translations.all }}
-          </button>
-          <button 
-            *ngFor="let tech of uniqueTechnologies" 
-            (click)="filterByTechnology(tech)" 
-            [class.bg-blue-600]="selectedTechnology === tech"
-            [class.text-white]="selectedTechnology === tech"
-            [class.bg-gray-200]="selectedTechnology !== tech"
-            [class.dark:bg-gray-700]="selectedTechnology !== tech"
-            [class.text-gray-800]="selectedTechnology !== tech"
-            [class.dark:text-white]="selectedTechnology !== tech"
-            class="px-4 py-2 rounded-full text-sm font-medium transition">
-            {{ tech }}
-          </button>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div 
-          *ngFor="let project of filteredProjects" 
-          class="bg-white dark:bg-gray-700 rounded-lg overflow-hidden shadow-md transition hover:shadow-lg cursor-pointer"
-          (click)="openProjectDetails(project)">
-          <img [src]="project.imageUrl" [alt]="project.title" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <div class="flex flex-wrap gap-2 mb-3">
-              <span 
-                *ngFor="let tech of project.technologies" 
-                class="px-2 py-1 bg-gray-100 dark:bg-gray-600 text-gray-600 dark:text-gray-300 text-xs rounded-full">
-                {{ tech }}
-              </span>
-            </div>
-            <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-2">{{ project.title }}</h2>
-            <p class="text-gray-600 dark:text-gray-300 mb-4">{{ project.shortDescription }}</p>
-            <span class="text-sm text-gray-500 dark:text-gray-400">{{ project.date }}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project Details Modal -->
-    <div *ngIf="selectedProject" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div class="bg-white dark:bg-gray-800 p-8 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">{{ selectedProject.title }}</h2>
-        <img [src]="selectedProject.imageUrl" [alt]="selectedProject.title" class="w-full h-64 object-cover rounded-lg mb-4">
-        <p class="text-gray-600 dark:text-gray-300 mb-4">{{ selectedProject.fullDescription }}</p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span 
-            *ngFor="let tech of selectedProject.technologies" 
-            class="px-2 py-1 bg-gray-100 dark:bg-gray-600 text-gray-600 dark:text-gray-300 text-xs rounded-full">
-            {{ tech }}
-          </span>
-        </div>
-        <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">{{ selectedProject.date }}</p>
-        <button 
-          (click)="closeProjectDetails()" 
-          class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-          {{ translations.close }}
-        </button>
-      </div>
-    </div>
-  `,
+  templateUrl: "./projects.component.html",
 })
 export class ProjectsComponent {
+  private translationService = inject(TranslationService);
   translations: any = {}
   projects: Project[] = []
   selectedTechnology = "all"
@@ -118,7 +29,7 @@ export class ProjectsComponent {
     return [...new Set(allTechnologies)]
   }
 
-  constructor(private translationService: TranslationService) {
+  constructor() {
     this.updateTranslations()
     this.translationService.languageChanged.subscribe(() => {
       this.updateTranslations()
